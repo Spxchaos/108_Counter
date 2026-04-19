@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Heading at top center */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+/* Center section */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#disp_num {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#incr {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#reset {
+    background-color: #f44336;
+    color: white;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
